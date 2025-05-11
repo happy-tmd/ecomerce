@@ -1,0 +1,36 @@
+{
+  "name": "back",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "scripts": {
+    "build": "strapi build",
+    "console": "strapi console",
+    "deploy": "strapi deploy",
+    "dev": "strapi develop",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi",
+    "upgrade": "npx @strapi/upgrade latest",
+    "upgrade:dry": "npx @strapi/upgrade latest --dry"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "5.13.0",
+    "@strapi/plugin-users-permissions": "5.13.0",
+    "@strapi/provider-upload-cloudinary": "^5.13.0",
+    "@strapi/strapi": "5.13.0",
+    "pg": "8.8.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=22.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "f74ded83-61fd-4bf5-953a-989d2d3c5ba9",
+    "installId": "814795540f257b4c7bcc96cc5e62eba33f2134462fae35563fb01aed76317909"
+  }
+}
